@@ -4,7 +4,7 @@
     background-color: white;
     font-size: 20px;
     color: blue;
-  }
+}
   
   /* secondary page hero */
   .hero-secondary {
@@ -12,7 +12,7 @@
     background-color: black;
     font-size: 20px;
     color: red;
-  }
+}
 
   .hero {
     background-image: url(../assets/images/hero-bg.jpg);
@@ -22,4 +22,14 @@
     height: auto;
     text-align: center;
     margin-bottom: 40px;
-  }
+}
+
+  .page-title, h2 {
+      color: #fce138;
+      display: inline-block;
+      border-bottom: 4px solid #fce138;
+      padding: 0 80px 15px 80px;
+      font-weight: normal;
+      font-size: 42px;
+      font-style: italic;
+}
