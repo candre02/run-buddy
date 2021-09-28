@@ -11,7 +11,7 @@
        }
 
        /* apply styles to <header> */
-       header {
+        header {
                padding: 20px 35px;
                background-color: #39a6b2;
                display: flex;
@@ -20,10 +20,10 @@
        }
         
         header h1 {
-            font-weight: bold;
-            font-size: 36px;
-            color: #fce138;
-            margin: 0;
+        font-weight: bold;
+        margin: 0;
+        font-size: 36px;
+        color: #fce138;
         }
         
         header a {
@@ -74,7 +74,7 @@
         }
 
         section {
-            padding: 60 px;
+            padding: 60px;
         }
 
         /* Hero Style Start */
@@ -143,6 +143,24 @@
             color: #fce138;
         }
 
+        .setion-title {
+            font-size: 55px;
+            border-bottom: 3px solid;
+            color: #024e76;
+            padding: 20px;
+            text-align: center;
+            margin: 0 auto 35px auto;
+            width: 50%;
+        }
+
+        .primary-border {
+            border-color: #fce138;
+        }
+          
+        .secondary-border {
+            border-color: #39a6b2;
+        }
+
         .intro p {
             line-height: 1.7;
             color: #39a6b2;
@@ -154,6 +172,9 @@
 
         .steps {
             background: #fce138;
+        }
+        
+        .step {
             margin: 50px auto;
             padding-bottom: 50px;
             width: 80%;
@@ -200,25 +221,6 @@
             font-size: 26px;
             line-height: 1.5;
             color: #024e76;
-        }
-
-        
-        .setion-title {
-            font-size: 55px;
-            border-bottom: 3px solid;
-            color: #024e76;
-            padding: 20px;
-            text-align: center;
-            margin: 0 auto 35px auto;
-            width: 50%;
-        }
-
-        .primary-border {
-            border-color: #fce138;
-        }
-
-        .secondary-border {
-            border-color: #39a6b2;
         }
 
         .trainers {
@@ -284,13 +286,9 @@
         }
 
         .contact-info div {
-            width: 410px;
-            display: inline-block;
-            vertical-align: top;
-            text-align: left;
-            margin: 30px 0 0 60px;
+            color: white;
         }
-
+          
         .contact-info h3 {
             color: #fce138;
             font-size: 32px;
@@ -327,8 +325,18 @@
             font-size: 16px;
         }
 
+        /* UTILITIES */
+        .text-left {
+            text-align: left;
+        }
+  
+        .text-right {
+            text-align: right;
+        }
+  
         .flex-row {
             display: flex;
         }
-          
+
+       
          
