@@ -18,8 +18,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
+    background-attachment: fixed;
+    background-position: 80%;
   }
   
   header h1 {
@@ -98,6 +101,8 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
   }
   
   .hero-cta {
@@ -377,6 +382,7 @@
     header {
       padding-bottom: 0;
       justify-content: center;
+      position: relative;
     }
   
     header h1 {
