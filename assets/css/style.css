@@ -156,6 +156,16 @@
     margin-bottom: 15px;
     border-radius: 10px; 
   }
+
+  /* update existing rule with this declaration */
+.form-input {
+    background-color: rgba(255,255,255, 0.75);
+  }
+  
+  /* create a new rule for focus state */
+  .form-input:focus {
+    background-color: rgba(255,255,255, 1);
+  }
   
   .hero-form label {
     margin: 0 5px;
