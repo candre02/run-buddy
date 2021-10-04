@@ -190,9 +190,10 @@
     opacity: 0;
   }
 
-  .checkbox-wrapper input:checked, .radio-wrapper input:checked {
-    opacity: 1;
-  }
+  .checkbox-wrapper input:checked + label,
+  .radio-wrapper input:checked + label {
+  font-weight: bold;
+}
 
   .checkbox-wrapper label::before, .radio-wrapper label::before {
     content: "";
