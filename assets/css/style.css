@@ -205,6 +205,10 @@
     left: -30px;
   }
 
+  .radio-wrapper label::before {
+    border-radius: 50%;
+  }
+
   .checkbox-wrapper label, .radio-wrapper label {
     position: relative;
     left: 10px;
